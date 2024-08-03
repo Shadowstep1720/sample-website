@@ -1,5 +1,6 @@
 html {
-    font-family: Arial, Helvetica, sans-serif 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
 }
 
 body {
@@ -86,6 +87,7 @@ button {
 
 .random-information {
     padding: 0px 100px;
+    background-color: white;
 }
 
 .random-information-title {
@@ -100,7 +102,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 40px;
-    
+    padding-bottom: 75px;
 }
 
 .illustration-instance {
@@ -118,4 +120,23 @@ button {
     text-align: center;
     width: 156px;
     font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
 }
