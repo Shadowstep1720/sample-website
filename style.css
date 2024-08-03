@@ -77,3 +77,45 @@ button {
     align-self: center;
     padding: 100px 0;
 }
+
+.intro-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+}
+
+.random-information {
+    padding: 0px 100px;
+}
+
+.random-information-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.illustration-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.illustration-instance {
+    flex: 0 0 150px;
+}
+
+.illustration-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.illustration-subtext {
+    text-align: center;
+    width: 156px;
+    font-weight: 300;
+}
